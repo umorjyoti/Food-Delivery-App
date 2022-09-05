@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "FoodDelivery",
+    "name": "Food  Delivery",
     "slug": "FoodDelivery",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,8 +8,8 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#00ccbb"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,13 +21,19 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "umor.food_delivery",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#00ccbb"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5cc2fb1f-b502-4c35-a999-b9544387e105"
+      }
     }
   }
 }
